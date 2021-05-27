@@ -1,0 +1,25 @@
+{
+  "name": "algorithm_visualizer_project",
+  "version": "1.0.0",
+  "description": "First Project",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pshashank083/Algorithm-Visualizer.git"
+    
+  },
+  "author": "Shashank Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pshashank083/Algorithm-Visualizer/issues"
+  },
+  "homepage": "https://github.com/pshashank083/Algorithm-Visualizer#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

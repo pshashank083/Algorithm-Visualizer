@@ -80,14 +80,14 @@ let array = [];
 createNewArray();
 
 // To create new array input size of array
-function createNewArray(noOfBars = 60) {
+function createNewArray(noOfBars = 30) {
     // calling helper function to delete old bars from dom
     deleteChild();
 
     // creating an array of random numbers 
     array = [];
     for (let i = 0; i < noOfBars; i++) {
-        array.push(Math.floor(Math.random() * 250) + 1);
+        array.push(Math.floor(Math.random() * 200) + 1);
     }
     console.log(array);
 
